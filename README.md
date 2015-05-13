@@ -1,6 +1,4 @@
-[![Deploy to Zapappi](https://portal.zapappi.com/content/images/deploy_to_zapappi.png)](https://portal.zapappi.com/Portal/Application/Create?manifestUrl=https://raw.githubusercontent.com/skrusty/foneduty/master/deploy.json)
-
-# Foneduty
+# Foneduty [![Deploy to Zapappi](https://portal.zapappi.com/content/images/deploy_to_zapappi.png)](https://portal.zapappi.com/Portal/Application/Create?manifestUrl=https://raw.githubusercontent.com/skrusty/foneduty/master/deploy.json)
 Foneduty is a set of applications designed to run on Zapappi's Cloud Platform that allow you to create PagerDuty alerts from phone calls.
 
 ## How To Use
