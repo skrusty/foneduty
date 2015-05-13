@@ -1,0 +1,50 @@
+{
+	"ApplicationName": "foneduty",
+	"ApplicationDescription": "An emergency voicemail style application with notifications via PagerDuty",
+	"SourceUrl": "https://raw.githubusercontent.com/skrusty/foneduty/master/foneduty-voicemail.js",
+	"ConfigurationValues": [
+		{
+			"Name": "Key",
+			"DisplayName": "AWS Key",
+			"Description": "Your AWS key (make one specific to this task!)",
+			"Type": "Text"
+		},
+		{
+			"Name": "Secret",
+			"DisplayName": "AWS Secret",
+			"Description": "The secret that goes with the Key you're using",
+			"Type": "Text"
+		},
+		{
+			"Name": "Bucket",
+			"DisplayName": "AWS Bucket",
+			"Description": "The AWS bucker you want to store the recording in",
+			"Type": "Text"
+		},
+		{
+			"Name": "Folder",
+			"DisplayName": "AWS Bucket Folder",
+			"Description": "The folder (virtual) that you want to store your recording in",
+			"Type": "Text"
+		},
+		{
+			"Name": "AWSRegion",
+			"DisplayName": "AWS Region",
+			"Description": "The region your S3 bucket exists in, E.g. eu-west",
+			"Options": ["us-east-1", "us-west-1", "us-west-2", "eu-west-1", "eu-central-1", "ap-southeast-1", "ap-southeast-2", "ap-northeast-1", "sa-east-1"]
+		},
+		{
+			"Name": "PagerDutyServiceToken",
+			"DisplayName": "PagerDuty Service Token",
+			"Description": "The token for the pager duty service this alert belongs to",
+			"Type": "Text"
+		},
+		{
+			"Name": "PagerDutyKey",
+			"DisplayName": "PagerDuty Key",
+			"Description": "Your API key for PagerDuty",
+			"Type": "Text"
+		}
+		
+	]
+}
