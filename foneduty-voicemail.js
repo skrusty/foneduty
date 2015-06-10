@@ -77,7 +77,6 @@ var trigger = {
 // Stringify and POST to PagerDuty API
 var triggerString = JSON.stringify(trigger);
 sys.Log(triggerString);
-var response = sys.Web("https://events.pagerduty.com/generic/2010-04-15/create_event.json?token=" + config.GetKeyValue("PagerDutyKey"), {
-	Method: "POST",
+var response = sys.Web("https://events.pagerduty.com/generic/2010-04-15/create_event.json?token=" + config.GetKeyValue("PagerDutyKey"), "POST", {
 	Body: triggerString
 });
